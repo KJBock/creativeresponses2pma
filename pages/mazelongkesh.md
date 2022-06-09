@@ -4,7 +4,7 @@ layout: about
 permalink: /mazelongkeshprison.html
 ---
 
-{%- if site.data.theme.featured-image -%}{% unless site.data.theme.featured-image contains '/' %}{% assign featuredItem = site.data[site.metadata] | where: 'objectid', site.data.theme.featured-image | first %}{% unless featuredItem.youtubeid %}{% if featuredItem.filename contains '/' %}{{ featuredItem.filename}}{% else %}{{ featuredItem.filename | prepend: '/objects/' | relative_url }}{% endif %}{% else %}https://img.youtube.com/vi/{{ featuredItem.youtubeid }}/maxresdefault.jpg{% endunless %}{% else %}{{ site.data.theme.featured-image | relative_url }}{% endunless %}{% else %}{{ '/assets/img/collectionbuilder-logo.png' | relative_url }}{%- endif -%}
+{% include feature/jumbotron.html objectid="cb_pma_pg_mlk_132" %}
 
 
 ## Maze and Long Kesh Prison
