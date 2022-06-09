@@ -14,14 +14,20 @@ credits: true
 
 ## About the Collection
 
-This site is generated using [CollectionBuilder-GH](https://collectionbuilding.github.io/gh/), a project to create a free and simple digital collection using [GitHub Pages](https://pages.github.com/) from: 
+This site is an online collection of photographs taken two former prisons sites in Northern Ireland.
 
-- a CSV of collection metadata
-- a folder of JPG images or PDF documents
+These pictures were taken before the buildings have been torn down, to the most part as the hospital wing, a watchtower and one of the H-Blocks remain on the site of MLK Prison. 
 
-The template repository features four objects from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital). 
+If you want to find out more about the [Prisons Memory Archive](https://www.prisonsmemoryarchive.com/) visit our oral history collection online. 
 
-For full details of creating your own collection site, visit [CollectionBuilder Documentation](https://collectionbuilder.github.io/cb-docs/)!
+More information about the prisons sites [Armagh Gaol]() and [Maze and Long Kesh Prison]() can be found in the context session. 
+
+If the archival fever has taken hold of you why not visit the [Public Record Office Northern Ireland](https://www.nidirect.gov.uk/campaigns/public-record-office-northern-ireland-proni) and their digital collection.
+
+The history of the conflict and how it impacts our lives today can be difficult to understand. Here are some resources that might help you to brush up on this particular piece of history:
+- [CAIN](https://cain.ulster.ac.uk/)
+- McKittrick, D. and McVea, D. (2012) Making sense of the troubles:A history of the Northern Ireland conflict, London, Viking.
+
+
 
 <!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
