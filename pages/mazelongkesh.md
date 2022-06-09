@@ -7,3 +7,6 @@ permalink: /mazelongkeshprison.html
 
 ## Maze and Long Kesh Prison
 
+Known as Her Majesty's Prison Maze and Long Kesh.
+
+{% include feature/card.html text="Used map from Maze and Long Kesh Prison" header="British Army Map 1977" objectid="hmp_7_6_12_1a_001_a" %}
