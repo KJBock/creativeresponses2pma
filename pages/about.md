@@ -20,7 +20,7 @@ These pictures were taken before the buildings have been torn down, to the most 
 
 If you want to find out more about the [Prisons Memory Archive](https://www.prisonsmemoryarchive.com/) visit our oral history collection online. 
 
-More information about the prisons sites [Armagh Gaol]() and [Maze and Long Kesh Prison]() can be found in the context session. 
+More information about the prisons sites [Armagh Gaol]() and [Maze and Long Kesh Prison]() can be found in the context section. 
 
 If the archival fever has taken hold of you why not visit the [Public Record Office Northern Ireland](https://www.nidirect.gov.uk/campaigns/public-record-office-northern-ireland-proni) and their digital collection.
 
