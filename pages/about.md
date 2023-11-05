@@ -10,7 +10,7 @@ credits: true
 
 {% include feature/jumbotron.html objectid="exphoto_01" %}
 
-{% include feature/nav-menu.html sections="About the Collection;About the About Page" %}
+{% include feature/nav-menu.html sections="About the Collection;Acknowledgements" %}
 
 # About the Collection
 
@@ -28,7 +28,7 @@ If you want to find out more about the [Prisons Memory Archive](https://www.pris
 
 In case you would like to leave a comment or feedback please follow this [Feedback form](https://forms.office.com/e/JSV4VM2pER).
 
-# Acknowlegements
+# Acknowledgements
 
 Hi, this is Katharina, the PhD researcher responsible for this project. I organized the workshops where these posters were made and put everything together for their public display at the Public Record Office of Northern Ireland and Online.
 
