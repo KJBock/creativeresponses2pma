@@ -5,7 +5,7 @@ permalink: /context.html
 # the historical Context will be on these pages
 ---
 
-## Historical Context of the Prisons Memory Archive Collection
+# Historical Context of the Prisons Memory Archive Collection
 
 The [Prisons Memory Archive](https://prisonsmemoryarchive.com/) is a collection of 160 walk-and-talk recordings of those who passed through the prisons system during the conflict known as the Troubles.
 
