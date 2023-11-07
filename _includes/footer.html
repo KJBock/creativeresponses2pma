@@ -28,15 +28,33 @@
 
            {% if site.organization-logo-nav %} <p class="text-end">
                 <a href="{{ site.organization-link }}" target="_blank" rel="noopener">
-                    <img id="footer-logo" class="img-fluid" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name }} home">
+                    <img id="footer-logo" class="img-fluid" src="{{ site.organization-logo-nav | relative_url }}" alt="{{ site.organization-name }} home" style="width:180px; height:auto">
                 </a>
             </p>
             {% endif %}
 
-            {% if site.organization-logo-2-nav %} <p class="text-end">
+            {% if site.organization-2-logo-nav %} <p class="text-end">
 
                 <a href="{{ site.organization-2-link }}" target="_blank" rel="noopener">
-                    <img id="footer-logo-2" class="img-fluid" src="{{ site.organization-logo-2-nav | relative_url }}" alt="{{ site.organization-2-name }} home">
+                    <img id="footer-logo-2" class="img-fluid" src="{{ site.organization-2-logo-nav | relative_url }}" alt="{{ site.organization-2-name }} home" style="width:180px; height:auto">
+                </a>
+            </p>
+            {% endif %}
+
+            {% if site.organization-3-logo-nav %} <p class="text-end">
+
+                <a href="{{ site.organization-3-link }}" target="_blank" rel="noopener">
+                    <img id="footer-logo-3" class="img-fluid" src="{{ site.organization-3-logo-nav | relative_url }}" alt="{{ site.organization-3-name }} home" style="width:180px; height:auto">
+                
+                </a>
+            </p>
+            {% endif %}
+
+            {% if site.organization-4-logo-nav %} <p class="text-end">
+
+                <a href="{{ site.organization-4-link }}" target="_blank" rel="noopener">
+                    <img id="footer-logo-4" class="img-fluid" src="{{ site.organization-4-logo-nav | relative_url }}" alt="{{ site.organization-4-name }} home" style="width:180px; height:auto">
+                
                 </a>
             </p>
             {% endif %}
