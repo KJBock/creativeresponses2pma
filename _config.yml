@@ -47,7 +47,11 @@ organization-logo-nav: assets/img/pma_logo_white.png
 
 organization-2-name: Queens University Belfast School of Arts, English and Languages
 organization-2-link: https://www.qub.ac.uk/schools/ael/ 
-organization-2-logo-nav: assets/Logo_QUB_AEL.png
+organization-2-logo-nav: assets/img/Logo_QUB_AEL.png
+
+organization-3-name: Queens University Belfast CITIGENS
+organization-3-link: https://www.qub.ac.uk/Study/PostgraduateStudy/FundingandScholarships/Doctoral-Training-Centres/citigens/
+organization-3-logo-nav: assets/img/Logo_Citigens.png
 
 ##########
 # GOOGLE SERVICES [optional!]
