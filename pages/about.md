@@ -15,7 +15,7 @@ credits: true
 # About the Collection
 
 This website is an online collection to accompany the exhibition Creative Responses at the Public Record Office of Northern Ireland.
-The exhibition is on display on site from Monday, 6th of November until Friday 24th of November, 11am. 
+The exhibition was on display on site from Monday, 6th of November until Monday 4th of December. 
 
 This poster exhibition is part of a research project that explores the creative re-use of an audiovisual collection with the public. In seven workshops, participants designed posters as a creative response to the [Prisons Memory Archive](https://www.prisonsmemoryarchive.com/) Collection. 
 
