@@ -25,7 +25,7 @@ function makeCard(obj) {
     } else if (obj.format.includes("audio")) {
         thumbSrc = '{{ "/assets/lib/icons/" | relative_url }}{{ icons.icon-audio }}.svg';
     } else if (obj.format.includes("video")) {
-        var imageNumber = obj.filename.substr(21, 2);
+        var imageNumber = obj.filename.substr(47, 2);
         thumbSrc = '{{ "/assets/img/" | relative_url }}'+'exno_'+imageNumber+'_thumbnail.jpg';  
     } else if (obj.format.includes("pdf")) {
         thumbSrc = '{{ "/assets/lib/icons/" | relative_url }}{{ icons.icon-pdf }}.svg';
