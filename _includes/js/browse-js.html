@@ -24,9 +24,10 @@ function makeCard(obj) {
         imgSrc = obj.filename;
     } else if (obj.format.includes("audio")) {
         thumbSrc = '{{ "/assets/lib/icons/" | relative_url }}{{ icons.icon-audio }}.svg';
-    } else if (obj.format.includes("video")) {
-        var imageNumber = obj.filename.substr(47, 2);
-        thumbSrc = '{{ "/assets/img/" | relative_url }}'+'exno_'+imageNumber+'_thumbnail.jpg';  
+    } else if (obj.format.includes("video 14")) {
+        imgSrc = '{{ "/assets/img/exno_14_thumbnail.jpg" | relative_url }}';  
+    } else if (obj.format.includes("video 17")) {
+        imgSrc = '{{ "/assets/img/exno_17_thumbnail.jpg" | relative_url }}';  
     } else if (obj.format.includes("pdf")) {
         thumbSrc = '{{ "/assets/lib/icons/" | relative_url }}{{ icons.icon-pdf }}.svg';
     } else {
