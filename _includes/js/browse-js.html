@@ -137,7 +137,10 @@ function shuffle(array) {
 /* init browse page */
 
 /* randomize items once at page load */
-shuffle(items);
+//shuffle(items);
+
+/* sort by title at page load */
+sorting(items,"filename");
 
 /* set some elements */ 
 var loadingIcon = document.querySelector("#loadingIcon");
