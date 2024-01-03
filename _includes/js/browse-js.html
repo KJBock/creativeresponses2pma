@@ -64,6 +64,7 @@ function makeCard(obj) {
     }
     {% endunless %}{% endfor %}
     card += '</p>';
+    
     // media type
     if(obj.format != "") {
         card += '<p class="card-text"><small><a class="btn btn-sm btn-outline-secondary" href="{{ '/browse.html' | relative_url }}#' + encodeURIComponent(obj.format) + '">' + 
