@@ -8,19 +8,22 @@ custom-foot: js/browse-js.html
 
 <div class="row mb-3 justify-content-center">
     <p class="mb-4"> Here you can find all posters designed by participants and material documenting the exhibition at the PRONI.<br>
-        You can use the buttons below to view only the posters created by participants or photos and video from the on-site exhibition. You can also try to filter by poster categories, such as poems or visual art piece. Or use the search bar if you are looking for something specific<br>
+        You can use the buttons below to view only the posters created by participants or photos and video from the on-site exhibition. You can also try to filter by poster categories, such as poems or visual art piece. Or use the search bar if you are looking for something specific.<br>
         Once you click on an object you have the option to view it in full screen mode and take a look at the metadata. On this object level you can see the poster accompanied by a comment from the person who created it.<br> 
     </p>   
     <br>
      <div class="card mb-3 justify-content-center">
         <div class="card-body">
-            <h5 class="card-title">Make a selection</h5>
+            <h4 class="card-title">Make a selection</h4>
                  <p class="card-text">
-                    <a class="btn btn-sm btn-outline-dark m-1" href="/creativeresponses2pma/browse.html#poster">Posters</a>
-                    <a class="btn btn-sm btn-outline-dark m-1" href="/creativeresponses2pma/browse.html#documentation">On-site exhibition impressions</a>
+                    <a class="btn btn-lg btn-outline-dark m-1" href="/creativeresponses2pma/browse.html#poster">Posters</a>
+                    <a class="btn btn-lg btn-outline-dark m-1" href="/creativeresponses2pma/browse.html#documentation">On-site exhibition impressions</a>
+                    <a class="btn btn-lg btn-outline-dark m-1" href="/creativeresponses2pma/browse.html#poem">Poems</a>
+                    <a class="btn btn-lg btn-outline-dark m-1" href="/creativeresponses2pma/browse.html#visual">Visual Art</a>
                 </p>
         </div>
      </div>
+     <br>
 
 
     <div class="col-md-8 text-center"> 
@@ -38,14 +41,18 @@ custom-foot: js/browse-js.html
             <button class="btn btn-secondary mt-1 dropdown-toggle" type="button" id="browseSortButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Sort by <span class="font-weight-bold" id="sortFilter">Filename</span>
             </button>
+            <br>
+            <br>
             <div class="dropdown-menu browse-sort-menu" aria-labelledby="browseSortButton">
                 <button class="dropdown-item browse-sort-item active" data-filter="filename">Filename</button>
                 <button class="dropdown-item browse-sort-item" data-filter="title">Title</button>
                 {% assign sort_options = site.data.config-browse | where_exp: 'i','i.sort_name != nil' %}
                 {% for o in sort_options %}
+                <br>
                 <button class="dropdown-item browse-sort-item" data-filter="{{ o.field | escape }}">{{ o.sort_name }}</button>
                 {% endfor %}
             </div>
+            <br>
         </div>
     </div>
 </div>
