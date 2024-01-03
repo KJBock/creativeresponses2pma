@@ -7,11 +7,22 @@ custom-foot: js/browse-js.html
 {{ content }}
 
 <div class="row mb-3 justify-content-center">
-    <p class="mb-4"> Here you can find all posters designed by participants and material documenting the exhibition at the Public Record Office of Northern Ireland.<br>
-        By default all objects available here are sorted by their object number, and show up in the same order as they were displayed on-site.<br>
-        You can use the search bar to filter your results and focus on the exhibition poster or documenting material. You can also try to filter by poster categories, such as poems or visual art piece.<br>
+    <p class="mb-4"> Here you can find all posters designed by participants and material documenting the exhibition at the PRONI.<br>
+        You can use the buttons below to view only the posters created by participants or photos and video from the on-site exhibition. You can also try to filter by poster categories, such as poems or visual art piece. Or use the search bar if you are looking for something specific<br>
         Once you click on an object you have the option to view it in full screen mode and take a look at the metadata. On this object level you can see the poster accompanied by a comment from the person who created it.<br> 
     </p>   
+    <br>
+     <div class="card mb-3 justify-content-center">
+        <div class="card-body">
+            <h5 class="card-title">Make a selection</h5>
+                 <p class="card-text">
+                    <a class="btn btn-sm btn-outline-dark m-1" href="/browse.html#posters">Posters</a>
+                    <a class="btn btn-sm btn-outline-dark m-1" href="/browse.html#documentation">On-site exhibition impressions</a>
+                </p>
+        </div>
+     </div>
+
+
     <div class="col-md-8 text-center"> 
         <form class="" role="search" id="lunrSearch" onsubmit="submitFilter(); return false;">
             <div class="input-group input-group-lg">
