@@ -25,7 +25,7 @@ Each response is different and is accompanied by a comment from the creator, whi
 The various posters highlight the wide range of perspectives and interpretations of historic records.
 Working together with members of the community can enrich the view we have of our past, present and future. 
 
-If you want to find out more about the [Prisons Memory Archive](https://www.prisonsmemoryarchive.com/) visit our oral history collection online or at the Public Records Office of Northern Ireland.
+If you want to find out more about the [Prisons Memory Archive](https://www.prisonsmemoryarchive.com/), visit our oral history collection online or at the Public Records Office of Northern Ireland.
 
 In case you would like to leave a comment or feedback please contact me via kbock02@qub.ac.uk.
 
