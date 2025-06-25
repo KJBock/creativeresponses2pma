@@ -14,7 +14,7 @@ credits: true
 
 # About the Collection
 
-his website represents the online exhibition of <strong>Creative Responses</strong>.
+his website represents the online exhibition of Creative Responses to the Prisons Memory Archive.
 It was also on display as a physical exhibition at the Public Record Office of Northern Ireland, from November 6th until December 4th 2023. 
 The exhibition was on display on site from Monday, 6th of November until Monday 4th of December. 
 
