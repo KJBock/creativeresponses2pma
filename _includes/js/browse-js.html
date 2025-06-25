@@ -24,10 +24,18 @@ function makeCard(obj) {
         imgSrc = obj.filename;
     } else if (obj.format.includes("audio")) {
         thumbSrc = '{{ "/assets/lib/icons/" | relative_url }}{{ icons.icon-audio }}.svg';
+    //thumbnail function for videos
     } else if (obj.format.includes("video 14")) {
         imgSrc = '{{ "/assets/img/exno_14_thumbnail.jpg" | relative_url }}';  
     } else if (obj.format.includes("video 17")) {
-        imgSrc = '{{ "/assets/img/exno_17_thumbnail.jpg" | relative_url }}';  
+        imgSrc = '{{ "/assets/img/exno_17_thumbnail.jpg" | relative_url }}';
+    } else if (obj.format.includes("video 06")) {
+        imgSrc = '{{ "/assets/img/exno_06_ev_thumbnail.jpg" | relative_url }}'; 
+    } else if (obj.format.includes("video 09")) {
+        imgSrc = '{{ "/assets/img/exno_09_ev_thumbnail.jpg" | relative_url }}';     
+    } else if (obj.format.includes("video 01")) {
+        imgSrc = '{{ "/assets/img/exhibition_video_thumbnail.jpg" | relative_url }}'; 
+
     } else if (obj.format.includes("pdf")) {
         thumbSrc = '{{ "/assets/lib/icons/" | relative_url }}{{ icons.icon-pdf }}.svg';
     } else if (obj.format.includes("360 view")) {
